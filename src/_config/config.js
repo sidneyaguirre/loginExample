@@ -1,1 +1,1 @@
-process.env.API_URL = process.env.API_URL /* || "url-to-API" */
+process.env.API_URL = process.env.API_URL /* || "url-to-API backend" */
