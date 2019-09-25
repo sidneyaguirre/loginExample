@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import { authenticationService } from '../_services/authentication.service';
+import Header from "./components/Header"
 
 class HomePage extends Component {
     constructor(props) {
@@ -18,6 +19,7 @@ class HomePage extends Component {
         const { currentUser } = this.state;
         return (
             <div>
+                <Header />
                 <h1>Hi {currentUser.userName}!</h1>
                 <p>You're logged in</p>
             </div>
